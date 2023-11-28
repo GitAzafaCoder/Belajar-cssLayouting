@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  overflow: none;
+  border: none;
+}
+.container {
+  padding: 1.4rem 7%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  right: 0;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.container h1 {
+  color: white;
+  font-weight: bold;
+  float: left;
+}
+.container .navbar a {
+  float: right;
+  margin: 0 1rem;
+  color: white;
+}
+.hero {
+  min-height: 100vh;
+  background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .div {
+  margin: 1rem 0 0 0;
+  padding: 1rem 1%;
+}
+hr {
+  width: 700px;
+  border-bottom: 2px solid black;
+  margin-left: 1rem;
+}
+.content .konten main {
+  width: 700px;
+  padding: 0.4rem 1%;
+  float: left;
+}
+.content .konten main p {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.content .konten aside {
+  width: 500px;
+  padding: 0.4rem 1%;
+  float: right;
+}
+.content .konten aside p {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
